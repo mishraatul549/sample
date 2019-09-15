@@ -1,0 +1,135 @@
+body{
+margin:0px;
+padding:0px;
+}
+.navbar{
+	width=100%;
+	background-color: rgb(55,61,73,0.975);
+	overflow:hidden;
+	position: relative;
+	padding:15px;
+
+}
+.navbar .left{
+	float:left;
+	overflow: hidden;
+}
+.navbar .right{
+	float:right;
+	overflow: hidden;
+}
+.left div{
+	float:left;
+	margin: 0px 5px;
+	padding: 5px 0px;
+	border:1px solid rgb(87,84,84);
+	border-radius: 3px
+}
+.right div{
+	float:left;
+	padding: 5px 0px;
+	border:1px solid rgb(87,84,84);
+	margin:0px 5px;
+}
+.navbar a{
+	color:white;
+	font-size:15px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.left div:not(:last-child) a:hover{
+	background-color: rgb(255,255,255,0.4);
+}
+.right div:not(:last-child) a:hover{
+	background-color: rgb(255,255,255,0.4);
+}
+#active{
+	background-color: rgb(255,255,255,0.8)
+}
+.navbar3 i{
+	color: blue;
+}
+.download{
+	background-color: red;
+}
+.navbar2:hover{
+	border-color: red;}
+
+ /*end of navbar */
+
+
+.main{
+	width:100%;
+	overflow-y: scroll;
+}
+.part1{
+	width: 30%;
+	position: relative;
+	height: 100%;
+	background-color: #d9d9d9;
+	float:left;
+	padding:10px;
+	overflow: hidden;
+}
+.part2{
+	width: 70%;
+	float: left; 
+	height:100%;
+	overflow: hidden;
+	position: relative;
+}
+.search{
+	background-color: white;
+	border:1px solid rgba(255,255,255,0.4);
+	border-radius: 5px;
+	position:absolute;
+}
+.main .part1 input:focus{
+	outline:none;
+}
+.main .part1 input{
+	border:none;
+	font-size: 20px;
+	padding:10px 0px;
+}
+.main .part1 .search:hover{
+	border:1px solid rgb(0,0,0,0.1);
+}
+.menu2 a{
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color:black;
+}
+.menu2{
+	padding: 0px;
+
+}
+.menu2 a:hover{
+	color:red;
+}
+.more{
+	color: red;
+	border:2px solid red ;
+	text-decoration: none;
+	padding: 5px 15px;
+	border-radius:5px;
+
+}
+.more:hover{
+	background-color: rgba(255,0,0,0.1);
+}
+.info{
+	color:grey;
+	text-decoration: none;
+	border-bottom:1px dashed grey;
+	padding-left: 10px;
+}
+.info:hover{
+	color:red;
+	border-bottom-color: red;
+}
+p{
+	color:grey;
+}
