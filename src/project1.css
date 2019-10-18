@@ -23,7 +23,8 @@ padding:0px;
 	margin: 0px 5px;
 	padding: 5px 0px;
 	border:1px solid rgb(87,84,84);
-	border-radius: 3px
+	border-radius: 3px;
+	color:red;
 }
 .right div{
 	float:left;
